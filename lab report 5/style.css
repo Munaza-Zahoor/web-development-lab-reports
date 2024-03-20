@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translate(-194px, -50%);;
+    width: 100%;
+    text-align: center;
+
+  }
+  .carousel-caption h3{
+    font-weight: 400;
+  }
+  .carousel-caption p{
+    margin-left: 381px;
+    width: 592px;
+}
+.thumbnail{
+    width: 400px;
+    height: 400px;
+    padding: 3.25rem;
+    border: none;
+    
+}
+.row{
+    margin-left: 104px;
+    gap: 21px;
+}
+.box{
+    background-color: black;
+     width: 350px; 
+     height: 50vh;
+      color: white;
+       border: 1px solid white;
+}
+.project{
+    width: 18rem;
+    height: 93vh;
+    border: none;
+    margin-top: 4vh ;
+    margin-left: 37px;
+    background-color: white;
+}
+.project img{
+    width: 249px;
+    height: 307px;
+    margin: 19px;
+}
+.box1{
+    width: 250px; 
+    height: 55vh;
+      border: none;
+      background-color: white;
+}
+.box1 img{
+    border-radius: 50%;
+    width: 104px;
+    height: 94px;
+    margin-top: 20px;
+    margin-left: 60px
+}
+.form-group .btn{
+    width: 100%;
+    padding: 6px;
+    margin-top: 17px;
+  
+}
+.form-group{
+    margin-left: 98px;
+    margin-right: 113px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 1px;
+  height: 8vh;
+  padding-left: 463px;
+  padding-top: 4px;
+}
