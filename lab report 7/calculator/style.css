@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  
+}
+
+.calculator {
+    text-align: center;
+}
+
+#display {
+    padding: 10px;
+    font-size: 1.5em;
+   width: 274px;
+    height: 8vh;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+}
+
+button {
+    padding: 22px;
+    font-size: 1.2em;
+    background-color: white;
+    cursor: pointer;
+
+  border: 1px solid black;
+}
+button:hover{
+    background-color: blue;
+}
